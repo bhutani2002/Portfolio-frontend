@@ -1,0 +1,156 @@
+.footer {
+    padding: 0 0 10px 0;
+    /* background-image: url('./assets/img/footer-bg.png'); */
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+
+      /* background: #333 url('../../assets/images/coding-min.jpg') center center no-repeat fixed; */
+        /* background: #333 url('../../assets/images/back-project.jpg') center center no-repeat fixed; */
+    overflow: hidden;
+    -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+  }
+  .footer img {
+    width: 26%;
+  }
+  .footer p {
+    font-weight: 400;
+    font-size: 14px;
+    color: #B8B8B8;
+    letter-spacing: 0.5px;
+    margin-top: 20px;
+  }
+  .setFooter{
+      margin-left: 0 !important;
+      margin-right: 0 !important;
+      min-width: 100%;
+      --bs-gutter-x: 0;
+      margin: auto;
+  }
+  /* a{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+a:hover{
+    color: white;
+} */
+  .foot__logo {
+    font-size:x-large;
+    font-weight: 600;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 40px;
+    color: black;
+    /* margin-top: 40px; */
+    object-fit: contain;
+    /* font-family: 'Montserrat', sans-serif; */
+    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+    /* font-family: 'Lobster', cursive; */
+    /* font-family: 'Pacifico', cursive; */
+    /* font-family: 'Edu QLD Beginner', cursive; */
+  }
+  .foot__logo:hover{
+    color: black;
+  }
+  .gray-color{
+    color: rgb(60, 57, 53);
+}
+.footer-bottom ul.social-network {
+  list-style: none;
+  display: inline;
+  margin: auto;
+}
+
+.footer-bottom ul.social-network li {
+  display: inline;
+  margin: 0 2px;
+}
+
+.footer-bottom .social-network a.icoMail:hover {
+  background-color: #fff;
+  color: red;
+  transition: all 0.8s;
+}
+
+.footer-bottom .social-network a.icoGitHub:hover {
+  background-color: black;
+}
+
+.footer-bottom .social-network a.icoLinkedin:hover {
+  background-color: #007bb7;
+}
+
+.footer-bottom .social-network a.icoInstagram:hover {
+  background: #f09433;
+  background: linear-gradient(
+    45deg,
+    #f09433 0%,
+    #e6683c 25%,
+    #dc2743 50%,
+    #cc2366 75%,
+    #bc1888 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888', GradientType=1);
+}
+
+/* .footer-bottom .social-network a.icoRss:hover i,
+.footer-bottom .social-network a.icoFacebook:hover i,
+.footer-bottom .social-network a.icoVimeo:hover i,
+.footer-bottom .social-network a.icoLinkedin:hover i {
+  color: #282d33;
+} */
+
+.footer-bottom .social-circle li a {
+  display: inline-block;
+  position: relative;
+  margin: 0 auto 0 auto;
+  border-radius: 50%;
+  text-align: center;
+  width: 50px;
+  height: 50px;
+  font-size: 22px;
+}
+
+.footer-bottom .social-circle li i {
+  margin: 0;
+  line-height: 50px;
+  text-align: center;
+}
+
+/* .footer-bottom .social-circle li a:hover i,
+.footer-bottom .triggeredHover {
+  -moz-transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+  -ms--transform: rotate(360deg);
+  transform: rotate(360deg);
+  transition: all 0.2s;
+} */
+
+/* .footer-bottom .social-circle i {
+  color: #fff;
+  transition: all 0.8s;
+} */
+
+.footer-bottom .social-circle a {
+  background-color: #282d33;
+}
+ol, ul {
+  padding-left: 0rem;
+}
+.footrow{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 1200px){
+  .foot__logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

@@ -1,0 +1,248 @@
+/* html { 
+    background: url('../../assets/images/back.jpeg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  } */
+  
+  .row{
+    --bs-gutter-x: 0rem;
+  }
+  /* #particles-js{
+    position:fixed;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, rgb(52, 152, 219), rgb(44, 62, 80));
+    background-repeat: repeat;
+    background-size: cover;
+ } */
+ 
+ /* canvas {
+    position: fixed;
+  } */
+.banner {
+    margin-top: 0;
+    /* background-image: url("https://i.ibb.co/4jS4pLW/images.jpg"); */
+    /* background: linear-gradient(90.21deg, rgba(171, 15, 83, 0.712) -5.91%, rgba(19, 4, 87, 0.5) 111.58%); */
+    /* background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%); */
+    /* background-image: url('../../assets/images/back.jpeg') ; */
+    /* background-image: url('../../assets/images/download.jfif') ; */
+    /* background-size: cover; */
+    /* object-fit: contain; */
+    /* background-size: contain; */
+    /* background-repeat: repeat; */
+    /* position: absolute; */
+    /* background-position: 50% 50%; */
+    /* width: 100%; */
+    /* height: 100%; */
+    /* -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+        margin-top: 5%;
+        margin-bottom: 5%;
+        margin-left: auto;
+        margin-right: auto;
+        left: 50;
+        right: 50;
+        width: 100%;
+        height: 100%; */
+
+                /* position: absolute; */
+
+        /* position: relative; */
+    /* width: 100%;
+    background: #333 url('../../assets/images/back.jpeg')  center center no-repeat fixed;
+    overflow: hidden;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    aspect-ratio: auto;
+    z-index: -1; */
+
+
+
+    /* height: 100vh;
+    left: 0;
+    background: #333 url('../../assets/images/back.jpeg')  center center no-repeat fixed;
+    object-fit: cover;
+    top: 0;
+    width: 100vw;
+    z-index: -2;
+    overflow-clip-margin: content-box;
+    overflow: clip; */
+    /* overflow: hidden; */
+     
+
+
+    /* width: 150px;
+  height: 100px; */
+  /* background-image: url("http://i.stack.imgur.com/2OrtT.jpg"); */
+  /* background-size: cover; */
+  /* background-size: auto; */
+  /* background-size: 100% 100%; */
+  /* background-repeat: no-repeat; */
+  /* background-position: 50% 50%;
+  min-height: initial; */
+  /* height: 100vh; */
+
+  }
+
+  /* .image-back{
+    height: 100vh;
+    position: relative;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 100vw;
+    z-index: -2;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+  } */
+  canvas {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+.upper_banner{
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: -1;
+    width: 100vw;
+
+    /* position: relative; */
+	width: 100%;
+	background: #333 url('../../assets/images/header1.jpg') center center no-repeat fixed;
+	overflow: hidden;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+	z-index: -1;
+}
+.left_banner{
+    /* width: 50%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    padding: 80px 40px 10px 40px;
+}
+.right_banner{
+    z-index: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 20px 10px 40px;
+    /* margin: 48px 0 20px 0; */
+    margin: 48px 0 100px 0;
+}
+.avatar{
+    width: 300px;
+    height: 300px;
+    /* width: 300px;
+    height: 300px; */
+    /* border-radius: 50%; */
+    border-radius: 100px;
+}
+.rotate{
+    width:100%;
+}
+
+.name{
+    font-weight: 400;
+    font-size: 30px;
+    margin: 10px;
+    color: rgba(255, 255, 255, 0.87);
+}
+.sub_text{
+    font-weight: 900;
+    font-size: 35px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+.description{
+    margin: 10px;
+    font-size: 18px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: rgba(255, 255, 255, 0.87);
+}
+.banner_buttons{
+    margin: 10px;
+    display: flex;
+}
+.banner_buttons button{
+    font-weight: 700;
+    color: #fff;
+    padding: 10px;
+    font-size: 18px;
+	position: relative;
+    align-items: center;
+	background-color: transparent;
+    cursor: pointer;
+	transition: 0.3s ease-in-out;
+    margin: 0 10px;
+    opacity: 0.75;
+    border: 4px solid white;
+    border-radius: 4px;
+    clip-path: polygon(12px 0px, 100% 0px, 100% 72%, calc(100% - 12px) 100%, 0px 100%, 0px 12px);
+}
+
+.banner_connect:hover,.banner_resume:hover{
+    opacity: 1;
+    transform: scale(1.1);
+    transition: 0.5s ease-in-out;
+}
+
+  .banner img {
+    animation: updown 3s linear infinite;
+  }
+  @keyframes updown {
+      0% {
+          transform: translateY(-10px);
+      }
+      50% {
+          transform: translateY(10px);
+      }
+      100% {
+          transform: translateY(-10px);
+      }
+  }
+
+  /* .banner_fadeBottom {
+    height: 2.4rem;
+    background-image: linear-gradient(
+      180deg,
+      transparent,
+      rgb(14,28,43)
+    );
+  } */
+  @media screen and (max-width: 767px) {
+    .upper_banner{
+        display: flex;
+        flex-direction: column-reverse;
+    }    
+    .left_banner{
+        padding: 0px 10px 10px 10px;
+        margin: -30px 0 0 0;
+    }
+    .description{
+        text-align: justify;
+    }
+    .banner_buttons{
+        margin-bottom: 20%;
+    }
+    .right_banner{
+        padding: 0;
+    }
+  }

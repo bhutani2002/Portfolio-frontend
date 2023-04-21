@@ -1,0 +1,114 @@
+.contact{
+    padding: 110px 20px;
+    /* background: #333 url('../../assets/images/back-project.jpg') center center no-repeat fixed; */
+	overflow: hidden;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    --bs-gutter-x: 0;
+}
+.contimage{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* width: fit-content; */
+  /* width: 80%; */
+}
+.ContactImage{
+    /* width: 500px; */
+    /* width: 80%; */
+    width: 100%;
+    object-fit: contain;
+    animation: updown 3s linear infinite;
+}
+@keyframes updown {
+    0% {
+        transform: translateY(-10px);
+    }
+    50% {
+        transform: translateY(10px);
+    }
+    100% {
+          transform: translateY(-10px);
+      }
+}
+
+  .contact h2 {
+      font-size: 45px;
+      font-weight: 700;
+      margin-bottom: 30px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+  }
+  .contact form input, .contact form textarea {
+    width: 100%;
+    background: rgba(255, 255, 255, 0.1);
+    /* border: 1px solid rgba(255, 255, 255, 0.5); */
+    border: 1px solid rgb(84, 82, 82);
+    border-radius: 20px;
+    /* color: #fff; */
+    color: black;
+    margin: 0 0 8px 0;
+    padding: 18px 26px;
+    font-weight: 500;
+    font-size: 18px;
+    letter-spacing: 0.8px;
+    transition: 0.3s ease-in-out;
+  }
+  .contact form input:focus, .contact form textarea:focus {
+    /* background: rgba(255, 255, 255, 1); */
+    color: #121212;
+  }
+  .contact form input::placeholder, .contact form textarea::placeholder {
+    font-size: 16px;
+    font-weight: 400;
+    /* color: #fff; */
+    /* color: black; */
+    color: gray;
+  }
+  .contact form input:focus::placeholder, .contact form textarea:focus::placeholder {
+    color: #121212;
+    opacity: 0.8;
+  }
+  .contact form button {
+    font-weight: 700;
+    color: #000;
+    /* background-color: #fff; */
+    padding: 14px 48px;
+    font-size: 18px;
+    margin-top: 25px;
+    /* border-radius: 0; */
+    position: relative;
+    transition: 0.3s ease-in-out;
+    border: 3px solid black;
+    clip-path: polygon(12px 0px, 100% 0px, 100% 72%, calc(100% - 12px) 100%, 0px 100%, 0px 12px);
+  }
+  .contact form button span {
+    z-index: 1;
+    position: relative;
+  }
+  .contact form button:hover {
+    color: #fff;
+  }
+  .contact form button::before {
+    content: "";
+    background: #121212;
+    width: 0;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    transition: 0.3s ease-in-out;
+  }
+  .contact form button:hover::before {
+    width: 100%;
+  }
+  @media screen and (max-width : 1290px){
+    .contimage{
+      width: 100%;
+    }
+}

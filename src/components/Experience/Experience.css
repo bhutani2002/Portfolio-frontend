@@ -1,0 +1,71 @@
+.experience{
+    padding: 60px 0;
+    /* background: #333 url('../../assets/images/coding-min.jpg') center center no-repeat fixed; */
+    	background: #333 url('../../assets/images/back-project.jpg') center center no-repeat fixed;
+	overflow: hidden;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.experience h2 {
+	font-size: 45px;
+	font-weight: 700;
+    text-align: center;
+    color: whitesmoke;
+}
+.exp-logo {
+    overflow: hidden;
+    border-radius: 50%;
+    margin-bottom: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+  }
+
+.exp-logo img{
+    width: 200px;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    overflow: unset;
+	-webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+  }
+  
+  .com-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .exp-desc{
+    margin: 15px auto 20px auto;
+    color: #B8B8B8;
+    text-align: center;
+    font-weight: 500;
+    font-size: 18px;
+  }
+  .exp-comp{
+    font-size: 20px;
+    text-align: center;
+  }
+  .exp-event{
+    text-align: center;
+  }
+  @media screen and (max-width: 340px) {
+    .exp-logo {
+      width: 130px;
+      height: 130px;
+    }
+  
+  .exp-logo img{
+      width: 130px;
+      height: 130px;
+    }
+  }

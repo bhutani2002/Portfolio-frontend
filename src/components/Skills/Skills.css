@@ -1,0 +1,144 @@
+.skill {
+    padding: 0 0 20px 0;
+    position: relative;
+    /* margin-bottom: -5%; */
+    z-index: 1;
+  }
+  .skill-bx {
+    background: white;
+    /* background-color: #b6b3b3; */
+    /* background-image: linear-gradient(
+      180deg,
+      transparent,
+      rgb(158, 168, 175)
+    ); */
+    /* #354C5E; */
+    border-radius: 64px;
+    text-align: center;
+    padding: 38px 50px;
+    margin: -5% 0 -6% 0;
+  }
+  .skill h2 {
+      font-size: 45px;
+      font-weight: 700;
+  }
+  /* .skill p {
+      color: #B8B8B8;
+      font-size: 18px;
+      letter-spacing: 0.8px;
+      line-height: 1.5em;
+      margin: 14px 0 75px 0;
+  } */
+  .skill-slider {
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+  }
+  /* .one{
+    margin: 0 0 0 50px;
+  } */
+  /* .skill-slider .item img {
+    width: 50%;
+    margin: 0 auto 15px auto;
+  } */
+  .background-image-left {
+    top: 28%;
+    position: absolute;
+    bottom: 0;
+    width: 40%;
+    z-index: -4;
+  }
+
+
+  .item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .circular-progress{
+    position: relative;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    /* background: conic-gradient(#7d2ae8 3.6deg, #ededed 0deg); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: -100;
+}
+.circular-progress::before{
+    content: "";
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: #fff;
+    z-index: -100;
+}
+.progress-value {
+    position: relative;
+    font-size: 40px;
+    font-weight: 600;
+    /* color: #7d2ae8; */
+    color: #233950;
+    /* z-index: -100; */
+}
+
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic);
+.otro-blockquote{
+  font-size: 1.4em;
+  width:80%;
+  margin:7px auto 25px auto;
+  font-family:Open Sans;
+  font-style:italic;
+  color: #555555;
+  padding:1.2em 30px 1.2em 75px;
+  /* border-left:8px solid #78C0A8 ; */
+  line-height:1.6;
+  position: relative;
+  /* background:#EDEDED; */
+}
+
+.otro-blockquote::before{
+  font-family:Arial;
+  content: "\201C";
+  color:#78C0A8;
+  font-size:4em;
+  position: absolute;
+  left: 10px;
+  top:-10px;
+}
+
+/* .otro-blockquote::after{
+  content: '';
+} */
+
+.otro-blockquote span{
+  display:block;
+  justify-content: end;
+  align-items: baseline;
+  float: right;
+  color:#333333;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  margin:1.5em 0;
+}
+@media screen and (max-width: 1200px) {
+  .otro-blockquote{
+    padding: 0.7em 10px 0.5em 50px;
+    margin: 0;
+    width: 100%;
+    text-align: justify;
+  }
+  .otro-blockquote::before{
+    font-size:3em;
+  }
+}
+@media screen and (max-width: 800px) {
+  .skill-bx {
+    padding: 38px 5px;
+  }
+}

@@ -1,0 +1,34 @@
+/* * { z-index: 2; } */
+/* .particle, .particle > canvas, #particles-js { z-index: -1 !important; }  */
+#particles-js{
+    /* background-color: white !important; */
+    position: absolute;
+    height: 100vh;
+    width: 100vh;
+    /* left: 0;
+    top: 0;  */
+    /* background-color: #b61924; */
+    /* background-image: url('https://i.ibb.co/vLHFvdc/84590758-removebg-preview.png'); */
+    /* background-size: cover; */
+    /* background-position: 100% 100%; */
+    background-repeat: repeat;
+    z-index: 1 !important;
+    /* pointer-events: none !important; */
+    pointer-events: all !important;
+    overflow: hidden;
+}
+/* #content {
+    pointer-events: none;
+}
+a, button {
+    pointer-events: all;
+} */
+section.particles-js .overlay a,
+section.particles-js .overlay input,
+section.particles-js .overlay button,
+section.particles-js .overlay textarea,
+section.particles-js .overlay label,
+section.particles-js .overlay .has-tab-index-or-lack-thereof,
+section.particles-js .overlay .has-hover-or-click-event-or-transition {
+    pointer-events: all;
+}
