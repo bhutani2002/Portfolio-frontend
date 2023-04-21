@@ -5,7 +5,8 @@ import Particles from "react-tsparticles";
 import { Container, Row, Col, Button, Image} from "react-bootstrap";
 import { Element, Link } from "react-scroll";
 // import avatarpic from "../../assets/images/my_pic_new.jpg"
-import avatarpic from '../../assets/images/Raag_Pic_11.jfif'
+// import avatarpic from '../../assets/images/Raag_Pic_11.jfif'
+import avatarpic from '../../assets/images/Raag.jpg'
 // import '../Particles/particles.css'
 
 const Banner = () => {
